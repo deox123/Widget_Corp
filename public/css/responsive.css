@@ -1,0 +1,63 @@
+#main {
+  max-width: 900px;
+  border: red;
+}
+
+#header  {
+  color: white;
+  border-color: red;
+  border: solid;
+  background-image: url("../images/1.jpeg");
+  padding-left: 1em;
+  max-width: 900px;
+
+
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+}
+
+#navigation {
+  background-image: url("../images/Clot background.jpg");
+  font-family: "Courier New";
+  font-size: 16px;
+  padding-bottom: 1em;
+  color: white;
+  padding: 1em;
+
+}
+#navigation a {
+  color: white;
+}
+
+#navigation ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: #8fbc96;
+  padding-left: 1em;
+  list-style: none;
+}
+
+.subjects li {
+  background-color: #f2e9dc;
+  border-style: solid;
+  border-color: #8fbc96;
+  border-radius: 1em 0 1em 0;
+  padding: 0.5em;
+  margin: 0.5em 0.5em 0 0;
+}
+
+.pages li {
+  border: none;
+  list-style: circle;
+  padding: 0;
+  margin: 0;
+}
+
+
+.pages {
+  flex-direction: column;
+}
